@@ -40,10 +40,7 @@ Returns a `(lag_max+1)` x `Nchannels` matrix with the MI estimates for each lag 
 1. [Andrew M. Fraser and Harry L. Swinney. "Independent coordinates for strange attractors from mutual information", Phys. Rev. A 33 (1986) 1134-1140.]( http://dx.doi.org/10.1103%2fPhysRevA.33.1134 )
 2. [Eric Weeks' page](http://www.physics.emory.edu/~weeks/software/minfo.html) with the description of the modified algorithm
 
-
-===============================
-
-Authors:
+## Contributors
 
 - Jonathan Hadida (2016), University of Oxford
 - Dmytro S. Lituiev (2013), University of Zurich
