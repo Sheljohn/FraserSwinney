@@ -1,7 +1,9 @@
 Fraser-Swinney lag estimate
 ===========================
 
-This is a Mex wrapper for estimating the optimal lag for phase-reconstruction using the mututal-information method presented in:
+This is a Mex wrapper for the original script `minfo.c` written by Eric Weeks (see references).
+The script estimates the mutual-information between an input time-series and its lagged versions for several lags.
+This is typically used to select the optimal lag for phase-space reconstruction. The method is published in:
 
 > Independent coordinates for strange attractors from mutual information<br>
 > A. Fraser, H. Swinney, PRA 1986 (doi: 10.1103/PhysRevA.33.1134)
