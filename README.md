@@ -1,9 +1,9 @@
-Fraser-Swinney estimation of phase-recontruction lag
-====================================================
+Fraser-Swinney lag estimate
+===========================
 
 This is a Mex wrapper for estimating the optimal lag for phase-reconstruction using the mututal-information method presented in:
 
-> Independent coordinates for strange attractors from mutual information
+> Independent coordinates for strange attractors from mutual information<br>
 > A. Fraser, H. Swinney, PRA 1986 (doi: 10.1103/PhysRevA.33.1134)
 
 ## Compiling
