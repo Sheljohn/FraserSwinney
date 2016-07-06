@@ -92,7 +92,15 @@ index_t number( index_t kmarray[], index_t m );
 void    saneqsort( index_t p, index_t r );
 index_t qpartition_neurons( index_t p, index_t r );
 
-void usage() { mexErrMsgTxt("Bad usage."); }
+void usage()
+{
+    mexPrintf(
+        "Usage: B = milag( X, lag_max )\n\n"
+        "  X        Ntimes x Nchannels double matrix\n"
+        "  lag_max  Integer scalar specifying max lag to consider (see DEFAULT_LAG_MAX)\n"
+        "  B        (lag_max+1) x Nchannels matrix with mutual-information estimate for each lag and channel\n"
+    );
+}
 
 // ------------------------------------------------------------------------
 
