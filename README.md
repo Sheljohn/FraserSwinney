@@ -10,9 +10,9 @@ This is a Mex wrapper for estimating the optimal lag for phase-reconstruction us
 
 Simply run
 ```
-    mex -largeArrayDims -O -lut lag.cpp
+    mex -largeArrayDims -O -lut milag.cpp
 ```
-from the command-line in Matlab.
+from the command-line in Matlab. Note the linking to `-lut` for keyboard-interruption support.
 
 ## Usage
 
@@ -21,6 +21,8 @@ The script takes one to three arguments:
 - `X` -- an `Ntimes` x `Nchannels` matrix of time-series in each column
 - `lag_max` (optional) -- the maximum lag to consider (see `DEFAULT_LAG_MAX`)
 - `nbins` (optional) -- number of bins
+
+The computation can be interrupted from the Matlab command-line using `Ctrl+C`.
 
 ## Notes
 
